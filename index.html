@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="build/css/vendor.css">
+      <link rel="stylesheet" href="build/css/styles.css">
+      <script src="build/js/vendor.min.js"></script>
+      <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Wake Up</title>
+  </head>
+  <body>
+    <h4 id="time"> </h4>
+    <div class="container">
+     <h1><- better weather app than thiers</h1>
+     <label for="location">Enter a location:</label>
+     <input id="location" type="text">
+     <button class="btn-success" id="weather-location">Get Current Humidity!</button>
+     <div class="showWeather"></div>
+     <p id ="feh"></p><p id="cel"></p>
+       <button id="switchTemps" type="button">°C / °F</button>
+       <form id="alarm">
+         Select a time to check the weather again:
+         <input id="new-time" type="time" name="usr_time">
+         <button type="submit" class="btn-danger">Set alarm</button>
+       </form>
+    </div>
+  </body>
+</html>
